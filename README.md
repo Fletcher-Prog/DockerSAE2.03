@@ -29,7 +29,7 @@ sudo docker build -t serveursae:1.0 .
 sudo docker run -d -p 3012:3002 serveursae:1.0
 ```
 
-- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:8080```
+- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:3012```
 
 - Vérifier que le conteneur associé est actif :
 ```shell
